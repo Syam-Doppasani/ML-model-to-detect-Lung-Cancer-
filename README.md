@@ -46,7 +46,27 @@ lung_cancer_project/
 
 └── requirements.txt               # Project dependencies
 
-# 🧪 Sample Input Features
+# 🛠️ Installation & Running Locally
+1. Clone the repo
+
+git clone https://github.com/Syam-Doppasani/ML-model-to-detect-Lung-Cancer-
+
+cd lung-cancer-survival-prediction
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+  3. Train the model (only once, unless retraining needed)
+
+python train_model.py
+
+  4. Run the Streamlit app
+
+streamlit run app.py
+
+
+# 📥Input Features
 Feature	Description
 
 Age	Age of the patient
@@ -74,6 +94,8 @@ Cirrhosis	Yes / No
 Other Cancer	Yes / No
 
 Treatment Type	Chemotherapy / Surgery / etc.
+
+
 # 👨‍💻 Author
 Syam Doppasani
 
