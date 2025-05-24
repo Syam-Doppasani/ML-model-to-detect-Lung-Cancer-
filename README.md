@@ -1,4 +1,4 @@
-# 🫁ML model to detect Lung Cancer
+# 🫁Lung Cancer Survival Prediction using ML and Streamlit for UI
 This project is a machine learning-powered web application that predicts the survival chances of lung cancer patients based on their clinical data and medical history. Built using Streamlit, the app provides a user-friendly interface for doctors, researchers, or healthcare providers to input patient information and receive instant predictions.
 # 🔍Overview
 Lung cancer is one of the most prevalent and deadly cancers worldwide. Early prognosis and survival prediction are critical for effective treatment planning. This app uses a Random Forest Classifier trained on a realistic dataset to predict whether a patient is likely to survive.
