@@ -30,22 +30,17 @@ Target variable:
 survived (1 = survived, 0 = did not survive)
 
 # Project Structure
+```
 lung_cancer_project/
 
 ├── app.py                           # Streamlit app interface
-
 ├── train_model.py                 # Model training and preprocessing
-
 ├── dataset_med.csv                # Dataset used for training
-
 ├── lung_cancer_model.pkl          # Trained model
-
 ├── label_encoder.pkl              # LabelEncoder used for encoding categories
-
 ├── scaler.pkl                     # StandardScaler for numeric inputs
-
 └── requirements.txt               # Project dependencies
-
+```
 # 🛠️ Installation & Running Locally
 1. Clone the repo
 
